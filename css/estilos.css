@@ -6,7 +6,7 @@
 #  \___/____/____/··
 #  ·················
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 
 /* -------variables */
 :root {
@@ -15,22 +15,22 @@
   --white-color: white;
   --black-color: #313337;
   /* Tipografia */
-  --normal:12px;
+  --normal: 12px;
   /* Espaciado */
-  --space:10px;
+  --space: 10px;
   /* Box shadow */
-  --box: 0 0 1px #c1bcbc;
+  --box: 0px 6px 5px 3px rgba(186, 186, 186, 1);
+  ;
 }
 
 /* -------variables */
-
 
 html,
 body {
   padding: 0px;
   margin: 0px;
   font-size: var(--normal);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -57,7 +57,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color:var(--white-color);
+  color: var(--white-color);
 }
 
 /* ------------------------ Main section */
@@ -90,7 +90,7 @@ nav li a:hover {
 }
 
 .main_button {
-  background-color:var(--green-color);
+  background-color: var(--green-color);
   width: 100%;
   padding: var(--space);
   font-size: var(--normal);
@@ -103,3 +103,77 @@ nav li a:hover {
 .main_button:hover {
   background-color: var(--green-hover-color);
 }
+
+/* ------------------------ End main section */
+
+/* ------------------------ Second section */
+
+.second_section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8%;
+}
+
+.item_second_section {
+  height: auto;
+  width: 15%;
+}
+
+.item_second_section img {
+  height: 25%;
+  padding: 8%;
+}
+
+/* ------------------------ End second section */
+
+/* ------------------------ Mentions section */
+
+.title_mentions {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.mentions {
+  display: flex;
+  justify-content: center;
+}
+
+.item_mentions {
+  width: 239px;
+  margin: 8px;
+  box-shadow: var(--box);
+}
+
+.item_mentions h3,
+p {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.item_mentions img {
+  object-fit: cover;
+}
+
+/* ------------------------ End mentions section */
+
+/* ------------------------ Footer */
+
+footer {
+  background: var(--black-color);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+footer a {
+  text-decoration: none;
+  margin: 2%;
+  color: var(--white-color);
+}
+
+
+/* ------------------------ End footer */
+
+
