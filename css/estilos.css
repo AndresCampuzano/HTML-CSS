@@ -60,6 +60,10 @@ nav li a:hover {
   color: var(--white-color);
 }
 
+.brand_image {
+  height: auto;
+}
+
 /* ------------------------ Main section */
 
 .main_section {
@@ -69,7 +73,7 @@ nav li a:hover {
 
 .products {
   background-image: url("../images/curve.png");
-  max-height: 50px;
+  /* max-height: 50px; */
   background-size: cover;
   background-position: center top;
   padding: 20%;
@@ -115,6 +119,7 @@ nav li a:hover {
 }
 
 .item_second_section {
+  text-align: center;
   height: auto;
   width: 15%;
 }
@@ -128,32 +133,24 @@ nav li a:hover {
 
 /* ------------------------ Mentions section */
 
-.title_mentions {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 2%;
-}
-
-.mentions {
+.mentions{
   display: flex;
-  justify-content: center;
+  padding: 5%;
 }
-
-.item_mentions {
-  width: 239px;
-  margin: 8px;
-  box-shadow: var(--box);
+.mention img{
+  width: 100%;
 }
-
-.item_mentions h3,
-p {
-  padding-left: 6px;
-  padding-right: 6px;
+h2.mention_title{
+  text-align: center;
 }
-
-.item_mentions img {
-  object-fit: cover;
+.mention{
+  padding: var(--space);
+}
+.content_mention{
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text{
+  padding: var(--space);
 }
 
 /* ------------------------ End mentions section */
