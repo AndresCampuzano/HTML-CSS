@@ -1,0 +1,46 @@
+.grid_products {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: [inicio] 1fr [linea2] 1fr [linea3] 1fr [final];
+  grid-template-rows: [inicioVertical] 1fr [lineaVertical2] 1fr [lineaVertical3] 1fr [finalVertical];
+  grid-gap: 5px;
+  height: 100vh;
+}
+
+.item_products:nth-of-type(1) {
+  grid-column: inicio / linea2;
+  grid-row: inicioVertical / lineaVertical2;
+  background-color: #6f08b8;
+}
+
+.item_products:nth-of-type(2) {
+  grid-column: linea2 / final;
+  grid-row: inicioVertical / lineaVertical2;
+  background-color: #ce1919;
+}
+
+.item_products:nth-of-type(3) {
+  grid-column: linea3 / final;
+  grid-row: lineaVertical2 / lineaVertical3;
+  background-color: #6f08b8;
+}
+
+.item_products:nth-of-type(4) {
+  grid-column: inicio / linea3;
+  grid-row: lineaVertical2 / lineaVertical3;
+  background-color: #ce1919;
+}
+
+.item_products:nth-of-type(5) {
+  grid-column: inicio / linea2;
+  grid-row: lineaVertical3 / finalVertical;
+  background-color: #6f08b8;
+}
+
+.item_products:nth-of-type(6) {
+  grid-column: linea2 / final;
+  grid-row: lineaVertical3 / finalVertical;
+  background-color: #ce1919;
+}
