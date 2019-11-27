@@ -1,7 +1,7 @@
 .grid_products {
-  margin-left: 18%;
-  margin-right: 18%;
-  margin-top: 5%;
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 5%;
   display: grid;
   grid-template-columns: [inicio] 1fr [linea2] 1fr [linea3] 1fr [final];
   grid-template-rows: [inicioVertical] 1fr [lineaVertical2] 1fr [lineaVertical3] 1fr [finalVertical];
@@ -40,9 +40,9 @@
 }
 
 .title_products {
-  margin-left: 18%;
-  margin-right: 18%;
-  margin-top: 5%;
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 5%;
 }
 
 .item_products img {
