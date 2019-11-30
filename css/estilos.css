@@ -19,7 +19,8 @@
   /* Espaciado */
   --space: 10px;
   /* Box shadow */
-  --box: 0px 6px 5px 3px rgba(186, 186, 186, 1);
+  --box: 2px 0px 9px -2px rgba(104, 104, 104, 0.75);
+  --radious: 4px;
 }
 
 /* -------variables */
@@ -39,6 +40,10 @@ nav {
   color: var(--white-color);
   justify-content: space-between;
   align-items: center;
+}
+
+p, label {
+  font-size: var(--normal);
 }
 
 nav ul {
@@ -100,7 +105,7 @@ nav li a:hover {
   color: var(--white-color);
   border: 0;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: var(--radious);
 }
 
 .main_button:hover {
@@ -153,6 +158,62 @@ h2.mention_title {
 }
 
 /* ------------------------ End mentions section */
+
+/* ------------------------ Page Ventas */
+
+.container_ventasPage {
+  width: 100%;
+  height: 100vh;
+  /* padding: 0;
+  margin: 0; */
+}
+
+.content_ventas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: -15%;
+}
+
+.content_ventas--product {
+  max-width: 200px;
+  box-shadow: var(--box);
+  border-radius: var(--radious);
+  padding: 2%;
+  margin: var(--space);
+}
+
+.content_ventas--product-images {
+  max-width: 150px;
+  margin: auto;
+}
+
+.content_ventas--form {
+  max-width: 400px;
+  width: 400px;
+  box-shadow: var(--box);
+  border-radius: var(--radious);
+  padding: 2%;
+  margin: var(--space);
+}
+
+.content_form--content {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.data {
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: var(--radious);
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+/* ------------------------ End page Ventas */
 
 /* ------------------------ Footer */
 
