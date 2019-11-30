@@ -4,6 +4,24 @@
     height: auto;
   }
 
+  .content_ventas {
+    display: inherit;
+  }
+
+  .content_ventas--product{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+
+  }
+  .content_ventas--form {
+    margin: auto;
+    width: 100%;
+    margin: 10px auto;
+
+  }
+
   .product {
     margin-top: auto;
   }
