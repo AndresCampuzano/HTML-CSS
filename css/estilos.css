@@ -82,6 +82,8 @@ nav li a:hover {
   background-position: center top;
   padding: 20%;
   display: flex;
+  padding-top: 8%;
+
 }
 
 .product {
