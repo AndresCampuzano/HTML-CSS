@@ -201,7 +201,10 @@ h2.mention_title {
 .content_form--content {
   display: flex;
   flex-direction: column;
-  
+}
+
+.content_form--content .main_button {
+  margin-top: 10px;
 }
 
 .data {
