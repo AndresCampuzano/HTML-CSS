@@ -89,12 +89,21 @@ nav li a:hover {
 .product {
   padding: var(--space);
   margin-top: -240px;
+  transition-property: margin-top;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
 }
+
+.product:hover{
+  margin-top: -245px;
+}
+
 .product .content {
   background-color: var(--white-color);
   padding: var(--space);
   box-shadow: var(--box);
 }
+
 .img_content {
   text-align: center;
 }
