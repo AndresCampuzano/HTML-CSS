@@ -40,6 +40,9 @@ nav {
   color: var(--white-color);
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 p, label {
